@@ -1,0 +1,45 @@
+.header {
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content {
+    display: flex;
+    gap: 10px;
+}
+
+.main-article {
+    background-color: lightgreen;
+    flex: 2;
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: yellow;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.article {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+}
